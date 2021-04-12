@@ -24,7 +24,7 @@ Carseats$High = as.factor(Carseats$High)
 # set a classsification tree
 tree.carseats = tree(High ~ .-Sales,Carseats, split = c("deviance", "gini"))
 summary(tree.carseats)
-
+# lalalala
 
 # plot tree, disply labels (text) and category names (pretty)
 plot(tree.carseats)
