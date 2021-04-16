@@ -10,6 +10,9 @@ data = read_xlsx("dataset_complete_only drinkers.xlsx")
 #Dasha WD
 dataset_complete_only_drinkers <- read_excel("C:/Users/Dasha/OneDrive - Aarhus Universitet/AU/Business Intelligence/semester 2/Data Science Project/Data Science Project/Shkatulka/dataset_complete_only drinkers.xlsx")
 
+#Mahdi WD
+data = read_excel("C:/Users/mahdi/Dropbox/Business Intelligence (cand.merc.)/2. semester/Data Science Project/Project - Group 13/Shkatulka/dataset_complete_only drinkers.xlsx")
+
 library(FSA)
 library(readxl)
 library(caret)
