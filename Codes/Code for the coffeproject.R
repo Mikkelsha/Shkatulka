@@ -3,15 +3,18 @@
 
 # Some of the code for the coffee projects: 
 
-
+#Rami WD
 setwd("~/Desktop/MSc Economics and Business Adm. in Business Intelligence/Business Intelligence/Data Science Project/Coffee project/Data")
+data = read_xlsx("dataset_complete_only drinkers.xlsx")
+
+#Dasha WD
+dataset_complete_only_drinkers <- read_excel("C:/Users/Dasha/OneDrive - Aarhus Universitet/AU/Business Intelligence/semester 2/Data Science Project/Data Science Project/Shkatulka/dataset_complete_only drinkers.xlsx")
 
 library(FSA)
 library(readxl)
 library(caret)
 library(tidyverse)
 
-data = read_xlsx("dataset_complete_only drinkers.xlsx")
 
 
 view(data)
